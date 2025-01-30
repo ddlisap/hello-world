@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div>Dashbaord</div>;
+  return <h1>customers</h1>;
 }

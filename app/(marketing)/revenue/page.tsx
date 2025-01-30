@@ -1,3 +1,3 @@
 export default function Page() {
-  return <h1>Forgot Password</h1>;
+  return <h1>revenue</h1>;
 }
