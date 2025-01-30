@@ -1,0 +1,12 @@
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ reviewId: string; productId: string }>;
+}) {
+  const { productId, reviewId } = await params;
+  return (
+    <div>
+      Review {reviewId} for product {productId}
+    </div>
+  );
+}
